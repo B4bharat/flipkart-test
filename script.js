@@ -3,7 +3,7 @@
   // your page initialization code here
   // the DOM will be available here
   /**
-   * - Hit The API and get the response
+   * X- Hit The API and get the response
    * - Create a main container div in HTML
    * - search bar will always be on top, with 'show selected'
    * - Find how to insert an element into the DOM
@@ -17,4 +17,18 @@
    * 
    * - style it in the end.
    */
+  let productConfig;
+
+  async function getProductDetails() {
+    let response = await fetch('https://flipkart-configuration-table.now.sh/api');
+    productConfig = await response.json();
+    yoyoma(productConfig);
+    return productConfig;
+  }
+
+  getProductDetails();
+
+  function yoyoma(config) {
+    console.log('config', config)
+  }
 })();
