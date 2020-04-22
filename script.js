@@ -4,8 +4,8 @@
   // the DOM will be available here
   /**
    * X- Hit The API and get the response
-   * - Create a main container div in HTML
-   * - search bar will always be on top, with 'show selected'
+   * X- Create a main container div in HTML
+   * X- search bar will always be on top, with 'show selected'
    * - Find how to insert an element into the DOM
    *  - create a function which attaches a node to the DOM based on the value
    *  - it should always be of the format <div><select></select><div class="key"></div><div class="value"></div><div class="description"></div></div>

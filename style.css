@@ -1,3 +1,19 @@
-h1 {
-  color: red;
+.container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+  border: 5px solid salmon;
+}
+
+.product-config {
+  position: relative;
+  top: 50px;
+  width: 60%;
+  margin: 0 auto;
+  border: 5px solid rebeccapurple;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: space-between;
 }
