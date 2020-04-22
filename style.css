@@ -17,3 +17,16 @@
   display: flex;
   justify-content: space-between;
 }
+
+.config-table-header {
+  display: flex;
+  justify-content: stretch;
+}
+
+.config-table-header>* {
+  width: 33%;
+}
+
+.config-table-row {
+  display: flex;
+}
